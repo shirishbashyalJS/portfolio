@@ -54,7 +54,7 @@ export const Project = () => {
                   >
                     <img
                       src={itm.img}
-                      alt=""
+                      alt="shirish bashyal"
                       style={{
                         height: "100%",
                         width: "100%",

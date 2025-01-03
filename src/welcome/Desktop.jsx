@@ -109,7 +109,7 @@ export const Desktop = ({ currentPage, setCurrentPage }) => {
   const [view, setView] = useState(true);
   const [Added, setAdded] = useState("");
 
-  const [folder, setFolder] = useState([{ name: "Portfolio" }]);
+  const [folder, setFolder] = useState([{ name: "Shirish Bashyal" }]);
 
   const handleDblClick = (name) => {
     if (name === "Portfolio") {
@@ -197,9 +197,12 @@ export const Desktop = ({ currentPage, setCurrentPage }) => {
                 }}
               >
                 <FcOpenedFolder style={{ fontSize: "50px" }} />
-                <p className="folder-text fs-3" style={{ userSelect: "none" }}>
+                <h1
+                  className="folder-text fs-3"
+                  style={{ userSelect: "none", textAlign: "center" }}
+                >
                   {item.name}
-                </p>
+                </h1>
               </div>
             );
           })}
