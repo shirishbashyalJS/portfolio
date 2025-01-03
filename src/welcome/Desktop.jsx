@@ -112,7 +112,7 @@ export const Desktop = ({ currentPage, setCurrentPage }) => {
   const [folder, setFolder] = useState([{ name: "Shirish Bashyal" }]);
 
   const handleDblClick = (name) => {
-    if (name === "Portfolio") {
+    if (name === "Shirish Bashyal") {
       setCurrentPage("welcome");
       const interval = setTimeout(() => {
         setCurrentPage("portfolio");
